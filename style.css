@@ -1,0 +1,146 @@
+body {
+  font-weight: bold;
+  text-align: center;
+  background: rgb(102, 121, 148);
+  background-image: url("img\\MillionaireBackGround.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: aquamarine;
+  background: transparent;
+  color: #d89100;
+  font-size: 50px;
+  position: relative;
+}
+
+.btnStart {
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 80px;
+  color: rgb(1, 91, 114);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12%;
+  margin-left: -46%;
+}
+
+.btnStart:hover {
+  background: #d89100;
+}
+
+.mainBLK {
+  font-size: 20px;
+  position: relative;
+  width: 850px;
+  height: 360px;
+  left: 27%;
+  float: left;
+  border-color: black;
+  border-width: 10px;
+  top: 300px;
+  content-visibility: hidden;
+}
+
+#question {
+  background-color: rgb(4, 10, 171);
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+  width: 750px;
+  height: 100px;
+  left: 50px;
+  top: 10px;
+  color: #d89100;
+  vertical-align: 20%;
+}
+
+.Answer1 {
+  background-color: rgb(4, 10, 171);
+  border-radius: 5px;
+  position: relative;
+  width: 350px;
+  height: 100px;
+  left: 50px;
+  float: left;
+  top: 30px;
+  border-color: #070500;
+}
+
+.Answer1:hover {
+  width: 345px;
+  height: 96px;
+  border: 2px solid #d89100;
+}
+
+.Answer2 {
+  background-color: rgb(4, 10, 171);
+  border-radius: 5px;
+  position: relative;
+  width: 350px;
+  height: 100px;
+  left: -50px;
+  float: right;
+  top: 30px;
+}
+
+.Answer2:hover {
+  width: 345px;
+  height: 96px;
+  border: 2px solid #d89100;
+}
+
+.Answer3 {
+  background-color: rgb(4, 10, 171);
+  border-radius: 5px;
+  position: relative;
+  width: 350px;
+  height: 100px;
+  float: left;
+  left: 50px;
+  top: 50px;
+}
+
+.Answer3:hover {
+  width: 345px;
+  height: 96px;
+  border: 2px solid #d89100;
+}
+
+.Answer4 {
+  background-color: rgb(4, 10, 171);
+  border-radius: 5px;
+  font-size: 20px;
+  position: relative;
+  width: 350px;
+  height: 100px;
+  left: -50px;
+  float: right;
+  top: 50px;
+}
+
+.Answer4:hover {
+  width: 345px;
+  height: 96px;
+  border: 2px solid #d89100;
+}
+
+.letter {
+  font-size: 20px;
+  display: inline-block;
+  color: #d89100;
+  padding-right: 5px;
+  position: relative;
+  top: 39%;
+}
+
+#question.letter {
+  font-size: 20px;
+  display: inline-block;
+  color: #d89100;
+  padding-right: 5px;
+  position: relative;
+  top: 39%;
+}
