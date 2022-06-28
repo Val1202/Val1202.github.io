@@ -1,18 +1,96 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 body {
   font-weight: bold;
   text-align: center;
-  background: rgb(102, 121, 148);
-  background-image: url("img\\MillionaireBackGround.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-h1 {
-  background-color: aquamarine;
-  background: transparent;
+.wrapper {
   color: #d89100;
-  font-size: 50px;
-  position: relative;
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  grid-template-areas:
+    "header header header"
+    "left main right"
+    "footer footer footer";
+  grid-template-rows: 80px auto 80px;
+
+  background-color: #2196f3;
+
+  background: rgb(102, 121, 148);
+  background-image: url("img\\MillionaireBackGround.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+  height: 100%;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-style {
+  font-family: BIZ UDPGothic;
+}
+
+.sidebar-left {
+  grid-area: left;
+  height: 100%;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+.sidebar-right {
+  grid-area: right;
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.main {
+  grid-area: main;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas:
+    "question question question question"
+    "start start start start"
+    "answ1 answ1 answ2 answ2"
+    "answ3 answ3 answ4 answ4";
+  grid-template-rows: 40% 10% 25% 25%;
+  visibility: hidden;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: footer;
+  height: 100%;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+div {
+  opacity: 0.8;
 }
 
 .btnStart {
@@ -23,108 +101,86 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 12%;
-  margin-left: -46%;
+  visibility: visible;
 }
 
-.btnStart:hover {
-  background: #d89100;
+.start {
+  grid-area: start;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.question {
+  grid-area: question;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2.5%;
+  /* border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.answ1 {
+  grid-area: answ1;
+  order: 0;
+  padding: 5%;
+  /* border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.answ2 {
+  grid-area: answ2;
+  order: 1;
+  padding: 5%;
+  /* border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.answ3 {
+  grid-area: answ3;
+  order: 2;
+  padding: 5%;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+.answ4 {
+  grid-area: answ4;
+  order: 3;
+  padding: 5%;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
 }
 
-.mainBLK {
-  font-size: 20px;
-  position: relative;
-  width: 850px;
-  height: 360px;
-  left: 27%;
-  float: left;
-  border-color: black;
-  border-width: 10px;
-  top: 300px;
-  content-visibility: hidden;
-}
-
-#question {
+.questionField {
   background-color: rgb(4, 10, 171);
   border-radius: 5px;
   font-size: 20px;
   position: relative;
-  width: 750px;
-  height: 100px;
-  left: 50px;
-  top: 10px;
+  width: 100%;
+  height: 50%;
   color: #d89100;
-  vertical-align: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Answer1 {
+.answerContainer,
+button {
+  position: relative;
   background-color: rgb(4, 10, 171);
   border-radius: 5px;
-  position: relative;
-  width: 350px;
-  height: 100px;
-  left: 50px;
-  float: left;
-  top: 30px;
   border-color: #070500;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  min-height: 30px;
 }
 
-.Answer1:hover {
-  width: 345px;
-  height: 96px;
-  border: 2px solid #d89100;
-}
-
-.Answer2 {
-  background-color: rgb(4, 10, 171);
-  border-radius: 5px;
+.answer1_btn {
   position: relative;
-  width: 350px;
-  height: 100px;
-  left: -50px;
-  float: right;
-  top: 30px;
 }
 
-.Answer2:hover {
-  width: 345px;
-  height: 96px;
-  border: 2px solid #d89100;
-}
-
-.Answer3 {
-  background-color: rgb(4, 10, 171);
-  border-radius: 5px;
+.answer2_btn {
   position: relative;
-  width: 350px;
-  height: 100px;
-  float: left;
-  left: 50px;
-  top: 50px;
 }
 
-.Answer3:hover {
-  width: 345px;
-  height: 96px;
-  border: 2px solid #d89100;
-}
-
-.Answer4 {
-  background-color: rgb(4, 10, 171);
-  border-radius: 5px;
-  font-size: 20px;
+.answer3_btn {
   position: relative;
-  width: 350px;
-  height: 100px;
-  left: -50px;
-  float: right;
-  top: 50px;
 }
 
-.Answer4:hover {
-  width: 345px;
-  height: 96px;
-  border: 2px solid #d89100;
+.answer4_btn {
+  position: relative;
 }
 
 .letter {
@@ -132,15 +188,92 @@ h1 {
   display: inline-block;
   color: #d89100;
   padding-right: 5px;
-  position: relative;
-  top: 39%;
 }
 
-#question.letter {
-  font-size: 20px;
-  display: inline-block;
+.btnStart:hover {
+  background: #d89100;
+}
+
+.moneyWon {
+  margin: 3px;
+  padding: 10px;
+  border: 1px solid #d89100;
+  border-radius: 5px;
+  height: 2%;
+  width: 200px;
+}
+
+.help {
+  margin: 3px;
+  padding: 10px;
+  border: 1px solid #d89100;
+  border-radius: 5px;
+  height: 20%;
+  width: 200px;
+}
+
+.answerContainer:hover {
+  border: 2px solid #d89100;
+}
+
+#answer .correct {
+  color: #36f995;
+}
+#answer .wrong {
   color: #d89100;
-  padding-right: 5px;
-  position: relative;
-  top: 39%;
+}
+
+@media (max-width: 1000px) {
+  #sidebarLeftId {
+    content-visibility: hidden;
+    height: 0%;
+    width: 0px;
+  }
+  #sidebarRightId {
+    content-visibility: hidden;
+    height: 0%;
+    width: 0px;
+  }
+
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "header"
+      ""
+      "main"
+      ""
+      "footer";
+    grid-template-rows: 80px auto 80px;
+    height: 100vh;
+  }
+
+  .main {
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "question"
+      "start"
+      "answ1"
+      "answ2"
+      "answ3"
+      "answ4";
+    grid-template-rows: 30% 10% 15% 15% 15% 15%;
+  }
+
+  .question {
+    padding: 1%;
+  }
+
+  .answ1 {
+    padding: 1%;
+  }
+  .answ2 {
+    padding: 1%;
+  }
+  .answ3 {
+    padding: 1%;
+  }
+  .answ4 {
+    padding: 1%;
+  }
 }

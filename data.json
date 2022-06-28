@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Ducks have a cosmopolitan distribution, and are found on every continent except:",
+    "answ1": "Antarctica",
+    "answ2": "Atlantis",
+    "answ3": "Arctic",
+    "answ4": "Asia",
+    "correct_answ": 1
+  },
+  {
+    "question": "How Many Eggs Do Ducks Lay a Year?",
+    "answ1": "40-500",
+    "answ2": "25-300",
+    "answ3": "1-100",
+    "answ4": "5-650",
+    "correct_answ": 2
+  },
+  {
+    "question": "How Long Do Ducks Live?",
+    "answ1": "1-10 years",
+    "answ2": "10-20 years",
+    "answ3": "5-15 years",
+    "answ4": "5-25 years",
+    "correct_answ": 3
+  },
+  {
+    "question": "Are Adult Ducks Noisy?",
+    "answ1": "Yes. When they make louder quacking noises",
+    "answ2": "In comparison to chickens, they are.",
+    "answ3": "In comparison to chickens, they aren't.",
+    "answ4": "No",
+    "correct_answ": 3
+  },
+  {
+    "question": "How Many Eggs Do Ducks Lay a Year?",
+    "answ1": "40-500",
+    "answ2": "25-300",
+    "answ3": "1-100",
+    "answ4": "5-650",
+    "correct_answ": 2
+  }
+]

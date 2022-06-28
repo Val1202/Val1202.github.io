@@ -4,35 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Millionduck</title>
-    <!--     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    <link
       rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    /> -->
-
+      href="https://fonts.googleapis.com/css?family=BIZ UDPGothic"
+    />
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Who wants to be a millionduck</h1>
-    <button id="startGame" class="btnStart">Start game</button>
-
-    <div id="mainBLK" class="mainBLK">
-      <div id="question"></div>
-      <div class="Answer1">
-        <span class="letter">A:</span>
+    <div class="wrapper">
+      <header><h1 class="h1-style">Who wants to be a millionduck ?</h1></header>
+      <div id="sidebarLeftId" class="sidebar-left">
+        <div class="help"><p>50:50</p></div>
+        <div class="help"><p>Call Frinds</p></div>
+        <div class="help"><p>Hall</p></div>
       </div>
-      <div class="Answer2">
-        <span class="letter">B:</span>
+      <div id="mainId" class="main">
+        <div class="question">  
+          <div class="questionField" span id="quest_chng" class="letter"></span></div>
+        </div>
+        <div class="start">
+          <button id="startGame" class="btnStart">Start game</button>
+        </div>
+        <div class="answ1">
+          <button id="answer1" class="answerContainer">
+            <span class="letter">A:</span>
+            <span id="span1_chng" class="letter"></span>
+          </button>
+        </div>
+        <div class="answ2">
+          <button id="answer2" class="answerContainer">
+            <span class="letter">B:</span>
+            <span id="span2_chng" class="letter"></span>
+          </button>
+        </div>
+        <div class="answ3">
+          <button id="answer3" class="answerContainer">
+            <span class="letter">C:</span>
+            <span id="span3_chng" class="letter"></span>
+          </button>
+        </div>
+        <div class="answ4">
+          <button id="answer4" class="answerContainer">
+            <span class="letter">D:</span>
+            <span id="span4_chng" class="letter"></span>
+          </button>
+        </div>
       </div>
-      <div class="Answer3">
-        <span class="letter">C:</span>
+      <div id="sidebarRightId" class="sidebar-right">
+        <div id="wonStep15" class="moneyWon"><p>1000000$</p></div>
+        <div id="wonStep14" class="moneyWon"><p>500000$</p></div>
+        <div id="wonStep13" class="moneyWon"><p>250000$</p></div>
+        <div id="wonStep12" class="moneyWon"><p>100000$</p></div>
+        <div id="wonStep11" class="moneyWon"><p>50000$</p></div>
+        <div id="wonStep10" class="moneyWon"><p>25000$</p></div>
+        <div id="wonStep9" class="moneyWon"><p>16000$</p></div>
+        <div id="wonStep8" class="moneyWon"><p>8000$</p></div>
+        <div id="wonStep7" class="moneyWon"><p>4000$</p></div>
+        <div id="wonStep6" class="moneyWon"><p>2000$</p></div>
+        <div id="wonStep5" class="moneyWon"><p>1000$</p></div>
+        <div id="wonStep4" class="moneyWon"><p>500$</p></div>
+        <div id="wonStep3" class="moneyWon"><p>300$</p></div>
+        <div id="wonStep2" class="moneyWon"><p>200$</p></div>
+        <div id="wonStep1" class="moneyWon"><p>100$</p></div>
       </div>
-      <div class="Answer4">
-        <span class="letter">D:</span>
-      </div>
+      <footer><p>created by @chpu with love</p></footer>
     </div>
-
     <script src="myscript.js"></script>
   </body>
 </html>
