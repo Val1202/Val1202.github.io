@@ -1,42 +1,42 @@
 [
   {
-    "question": "Ducks have a cosmopolitan distribution, and are found on every continent except:",
-    "answ1": "Antarctica",
-    "answ2": "Atlantis",
-    "answ3": "Arctic",
-    "answ4": "Asia",
-    "correct_answ": 1
+    "question": "RHVja3MgaGF2ZSBhIGNvc21vcG9saXRhbiBkaXN0cmlidXRpb24sIGFuZCBhcmUgZm91bmQgb24gZXZlcnkgY29udGluZW50IGV4Y2VwdDo=",
+    "answ1": "QW50YXJjdGljYQ==",
+    "answ2": "QXRsYW50aXM=",
+    "answ3": "QXJjdGlj",
+    "answ4": "QXNpYQ==",
+    "correct_answ": "MQ=="
   },
   {
-    "question": "How Many Eggs Do Ducks Lay a Year?",
-    "answ1": "40-500",
-    "answ2": "25-300",
-    "answ3": "1-100",
-    "answ4": "5-650",
-    "correct_answ": 2
+    "question": "SG93IE1hbnkgRWdncyBEbyBEdWNrcyBMYXkgYSBZZWFyPw==",
+    "answ1": "NDAtNTAw",
+    "answ2": "MjUtMzAw",
+    "answ3": "MS0xMDA=",
+    "answ4": "NS02NTA=",
+    "correct_answ": "Mg=="
   },
   {
-    "question": "How Long Do Ducks Live?",
-    "answ1": "1-10 years",
-    "answ2": "10-20 years",
-    "answ3": "5-15 years",
-    "answ4": "5-25 years",
-    "correct_answ": 3
+    "question": "SG93IExvbmcgRG8gRHVja3MgTGl2ZT8NCg==",
+    "answ1": "MS0xMCB5ZWFycw0K",
+    "answ2": "MTAtMjAgeWVhcnMNCg==",
+    "answ3": "NS0xNSB5ZWFycw==",
+    "answ4": "NS0yNSB5ZWFycw==",
+    "correct_answ": "Mw=="
   },
   {
-    "question": "Are Adult Ducks Noisy?",
-    "answ1": "Yes. When they make louder quacking noises",
-    "answ2": "In comparison to chickens, they are.",
-    "answ3": "In comparison to chickens, they aren't.",
-    "answ4": "No",
-    "correct_answ": 3
+    "question": "QXJlIEFkdWx0IER1Y2tzIE5vaXN5Pw0K",
+    "answ1": "WWVzLiBXaGVuIHRoZXkgbWFrZSBsb3VkZXIgcXVhY2tpbmcgbm9pc2Vz",
+    "answ2": "SW4gY29tcGFyaXNvbiB0byBjaGlja2VucywgdGhleSBhcmUu",
+    "answ3": "SW4gY29tcGFyaXNvbiB0byBjaGlja2VucywgdGhleSBhcmVuJ3Qu",
+    "answ4": "Tm8=",
+    "correct_answ": "Mw=="
   },
   {
-    "question": "How Many Eggs Do Ducks Lay a Year?",
-    "answ1": "40-500",
-    "answ2": "25-300",
-    "answ3": "1-100",
-    "answ4": "5-650",
-    "correct_answ": 2
+    "question": "SG93IE1hbnkgRWdncyBEbyBEdWNrcyBMYXkgYSBZZWFyPw0K",
+    "answ1": "NDAtNTAw",
+    "answ2": "MjUtMzAw",
+    "answ3": "MS0xMDA=",
+    "answ4": "NS02NTA=",
+    "correct_answ": "Mg=="
   }
 ]
