@@ -3,20 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Millionduck</title>
+    <title>MillionAnastasia</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=BIZ UDPGothic"
     />
     <link href="style.css" rel="stylesheet" />
+    <audio id="audioCorAnsw" src="sound/correct answer.mp3"></audio>
+    <audio id="audioWrngAnsw" src="sound/wrong answer.mp3"></audio>
+    <audio id="audioMain" src="sound/main music.mp3"></audio>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "SWFY1cn2IEaBoZ_sZ",
+  });
+})();
+</script>
   </head>
   <body>
     <div class="wrapper">
-      <header><h1 class="h1-style">Who wants to be a millionduck ?</h1></header>
+      <header><h1 class="h1-style">Who wants to be smart like Anastasia ?</h1></header>
       <div id="sidebarLeftId" class="sidebar-left">
-        <div class="help"><p>50:50</p></div>
-        <div class="help"><p>Call Frinds</p></div>
-        <div class="help"><p>Hall</p></div>
+        <button id="btnFifty" class="help"><p>50:50</p></button>
+        <button id="frndCall" class="help"><p>Call Frinds</p></button>
+        <button id="hallHelp" class="help"><p>Hall</p></button>
       </div>
       <div id="mainId" class="main">
         <div class="question">  
@@ -67,7 +80,18 @@
         <div id="wonStep2" class="moneyWon"><p>200$</p></div>
         <div id="wonStep1" class="moneyWon"><p>100$</p></div>
       </div>
-      <footer><p>created by @chpu with &hearts;</p></footer>
+
+      <div class="overlay" id="overlay"></div>
+      <div class="popup" id="popup">
+        <img src="https://play-lh.googleusercontent.com/JFsWuM7yWlTxhoddyAA5eLAaS92hjJz5-hAa-82o8hMr2Kbeg8yDzIounvNSNCTYNg" alt="Gift" class="gift-image">
+        <h2>Happy Birthday, my love!</h2>
+        <p>Today you have not only grown older but also wiser.</p>
+        <p>I never cease to admire you.</p>
+        <p>You are the best and smartest, and may your life be filled with joy, success, and love every day!</p>
+      </div>
+
+
+      <footer><p>created by @valerii with &hearts;</p></footer>
     </div>
     <script src="myscript.js"></script>
   </body>

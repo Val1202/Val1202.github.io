@@ -90,10 +90,6 @@ footer {
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
 }
 
-div {
-  /*opacity: 0.8;*/
-}
-
 .btnStart {
   font-family: "Times New Roman", Times, serif;
   width: 200px;
@@ -140,6 +136,38 @@ div {
   order: 3;
   padding: 5%;
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+/* *****************Styles for the pop up ****************************/
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0e6d2; /* Wood background color */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+}
+
+/* Styles for the overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Style for the gift image */
+.gift-image {
+  max-width: 100px;
+  margin-bottom: 10px;
 }
 
 .questionField {
@@ -192,20 +220,15 @@ button {
   margin: 3px;
   padding: 10px;
   border: 1px solid #d89100;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 20%;
   width: 200px;
+  font-size: large;
+  font-weight: bold;
 }
 
 .answerContainer:hover {
   border: 2px solid #d89100;
-}
-
-#answer .correct {
-  color: #36f995;
-}
-#answer .wrong {
-  color: #d89100;
 }
 
 @media (max-width: 1100px) {
@@ -265,11 +288,11 @@ button {
 }
 
 .btnAnimationRightAnsw {
-  animation: rightAnsw 2s;
+  animation: rightAnsw 3s;
 }
 
 .btnAnimationWrongAnsw {
-  animation: wrongAnsw 2s;
+  animation: wrongAnsw 3s;
 }
 
 @keyframes rightAnsw {

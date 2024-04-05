@@ -1,42 +1,122 @@
 [
   {
-    "question": "RHVja3MgaGF2ZSBhIGNvc21vcG9saXRhbiBkaXN0cmlidXRpb24sIGFuZCBhcmUgZm91bmQgb24gZXZlcnkgY29udGluZW50IGV4Y2VwdDo=",
-    "answ1": "QW50YXJjdGljYQ==",
-    "answ2": "QXRsYW50aXM=",
-    "answ3": "QXJjdGlj",
-    "answ4": "QXNpYQ==",
-    "correct_answ": "MQ=="
+    "question": "Who is known as the \"Father of Modern Physics\"?",
+    "answ1": "Isaac Newton",
+    "answ2": "Albert Einstein",
+    "answ3": "Galileo Galilei",
+    "answ4": "Niels Bohr",
+    "correct_answ": "2"
   },
   {
-    "question": "SG93IE1hbnkgRWdncyBEbyBEdWNrcyBMYXkgYSBZZWFyPw==",
-    "answ1": "NDAtNTAw",
-    "answ2": "MjUtMzAw",
-    "answ3": "MS0xMDA=",
-    "answ4": "NS02NTA=",
-    "correct_answ": "Mg=="
+    "question": "What is the capital city of Australia?",
+    "answ1": "Sydney",
+    "answ2": "Canberra",
+    "answ3": "Melbourne",
+    "answ4": "Perth",
+    "correct_answ": "2"
   },
   {
-    "question": "SG93IExvbmcgRG8gRHVja3MgTGl2ZT8NCg==",
-    "answ1": "MS0xMCB5ZWFycw0K",
-    "answ2": "MTAtMjAgeWVhcnMNCg==",
-    "answ3": "NS0xNSB5ZWFycw==",
-    "answ4": "NS0yNSB5ZWFycw==",
-    "correct_answ": "Mw=="
+    "question": "Which planet is known as the \"Red Planet\"?",
+    "answ1": "Jupiter",
+    "answ2": "Mars",
+    "answ3": "Venus",
+    "answ4": "Saturn",
+    "correct_answ": "2"
   },
   {
-    "question": "QXJlIEFkdWx0IER1Y2tzIE5vaXN5Pw0K",
-    "answ1": "WWVzLiBXaGVuIHRoZXkgbWFrZSBsb3VkZXIgcXVhY2tpbmcgbm9pc2Vz",
-    "answ2": "SW4gY29tcGFyaXNvbiB0byBjaGlja2VucywgdGhleSBhcmUu",
-    "answ3": "SW4gY29tcGFyaXNvbiB0byBjaGlja2VucywgdGhleSBhcmVuJ3Qu",
-    "answ4": "Tm8=",
-    "correct_answ": "Mw=="
+    "question": "In which year did the Titanic sink?",
+    "answ1": "1909",
+    "answ2": "1912",
+    "answ3": "1915",
+    "answ4": "1918",
+    "correct_answ": "2"
   },
   {
-    "question": "SG93IE1hbnkgRWdncyBEbyBEdWNrcyBMYXkgYSBZZWFyPw0K",
-    "answ1": "NDAtNTAw",
-    "answ2": "MjUtMzAw",
-    "answ3": "MS0xMDA=",
-    "answ4": "NS02NTA=",
-    "correct_answ": "Mg=="
+    "question": "Who painted the famous artwork \"Mona Lisa\"?",
+    "answ1": "Pablo Picasso",
+    "answ2": "Vincent van Gogh",
+    "answ3": "Leonardo da Vinci",
+    "answ4": "Michelangelo",
+    "correct_answ": "3"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answ1": "Au",
+    "answ2": "Ag",
+    "answ3": "Fe",
+    "answ4": "Hg",
+    "correct_answ": "1"
+  },
+  {
+    "question": "Choose the most important event that happened on April 6?",
+    "answ1": "Your birthday",
+    "answ2": "World War I: The United States declares war on Germany",
+    "answ3": "First people to reach the North Pole",
+    "answ4": "Varney Airlines makes its first commercial flight",
+    "correct_answ": "1"
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answ1": "Elephant",
+    "answ2": "Giraffe",
+    "answ3": "Blue Whale",
+    "answ4": "Hippopotamus",
+    "correct_answ": "3"
+  },
+  {
+    "question": "Which country is home to the Eiffel Tower?",
+    "answ1": "Italy",
+    "answ2": "Germany",
+    "answ3": "France",
+    "answ4": "Spain",
+    "correct_answ": "3"
+  },
+  {
+    "question": "Who is the Greek god of the sea?",
+    "answ1": "Hades",
+    "answ2": "Poseidon",
+    "answ3": "Zeus",
+    "answ4": "Apollo",
+    "correct_answ": "2"
+  },
+  {
+    "question": "What is the main ingredient in guacamole?",
+    "answ1": "Tomato",
+    "answ2": "Avocado",
+    "answ3": "Onion",
+    "answ4": "Cilantro",
+    "correct_answ": "2"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answ1": "Alexander Graham Bell",
+    "answ2": "Thomas Edison",
+    "answ3": "Nikola Tesla",
+    "answ4": "Guglielmo Marconi",
+    "correct_answ": "1"
+  },
+  {
+    "question": "What is the longest word in the dictionary?",
+    "answ1": "Smiles",
+    "answ2": "Sesquipedalian",
+    "answ3": "Supercalifragilisticexpialidocious",
+    "answ4": "Hippopotomonstrosesquippedaliophobia",
+    "correct_answ": "1"
+  },
+  {
+    "question": "What has a neck but no head?",
+    "answ1": "A balloon",
+    "answ2": "A bottle",
+    "answ3": "A giraffe",
+    "answ4": "An orange",
+    "correct_answ": "2"
+  },
+  {
+    "question": "Who is the best recruiter in the whole world ?",
+    "answ1": "Anastasia Oreshkina",
+    "answ2": "Elena Makedonskaya",
+    "answ3": "Vladimir Miloserdov",
+    "answ4": "Maryna Kozhyna",
+    "correct_answ": "1"
   }
 ]
