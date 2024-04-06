@@ -88,11 +88,11 @@
     "correct_answ": "2"
   },
   {
-    "question": "Who invented the telephone?",
-    "answ1": "Alexander Graham Bell",
-    "answ2": "Thomas Edison",
-    "answ3": "Nikola Tesla",
-    "answ4": "Guglielmo Marconi",
+    "question": "What has many keys but can`t open a single lock?",
+    "answ1": "A piano",
+    "answ2": "A bunch of bananas",
+    "answ3": "A computer keyboard with no power",
+    "answ4": "A collection of old typewriter keys",
     "correct_answ": "1"
   },
   {
